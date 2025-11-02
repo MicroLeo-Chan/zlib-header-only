@@ -30,6 +30,6 @@ In a CMake-based build system, these paths would typically be added with:
 
 cmake
 ```
-include_directories(thirdparty/zlib-header-only-1.3.1)
+include_directories(${PROJECT_SOURCE_DIR}/zlib-header-only-1.3.1)
 ```
 The existing code demonstrates basic usage of the minizip functionality by creating and closing a zip file, which validates that the library paths are correctly configured.
