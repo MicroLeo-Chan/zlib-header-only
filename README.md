@@ -1,4 +1,3 @@
-Based on your requirements, I'll provide an updated version of the test file with proper comments explaining the zlib-header-only library integration. Here's the modified code:
 
 cpp
 // Required include paths:
@@ -8,6 +7,8 @@ cpp
 // located in the thirdparty directory. The minizip component is a 
 // subdirectory within zlib that provides zip/unzip functionality.
 
+
+```
 #include "minizip/zip.h"
 
 int main()
@@ -18,6 +19,8 @@ int main()
     getchar();
     return 0;
 }
+```
+
 This updated file now includes documentation about the required include paths for the zlib-header-only library. The paths you specified point to:
 
 zlib-header-only-1.3.1/ - The main zlib header-only library directory
