@@ -1,10 +1,12 @@
 
-cpp
-// Required include paths:
-// 1. Must add include library: zlib-header-only-1.3.1/
-//
-// These paths correspond to the header-only version of zlib library 
 
+Required include paths:
+
+1. Must add include library: ```zlib-header-only-1.3.1/```
+
+These paths correspond to the header-only version of zlib library 
+
+No need to use zlib.lib
 
 
 ```
